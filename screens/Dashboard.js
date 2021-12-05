@@ -64,7 +64,7 @@ const Dashboard = ({navigation}) => {
               color: COLORS.white,
               ...FONTS.h3,
             }}>
-            Title
+            Sadegh
           </Text>
         </View>
         {/* profile */}

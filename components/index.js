@@ -1,5 +1,4 @@
-import TextButton from "./TextButton";
+import NavbarHeader from './NavbarHeader';
+import TextButton from './TextButton';
 
-export {
-    TextButton
-}
+export {TextButton, NavbarHeader};

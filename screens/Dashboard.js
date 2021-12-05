@@ -287,7 +287,10 @@ const Dashboard = ({navigation}) => {
                     {item.description}
                   </Text>
                   <TextButton
-                    onPress={()=>navigation.navigate('Place' , {place : item})}
+                    onPress={()=>
+                      // console.log(item)
+                      navigation.navigate('Place' , {selectedPlace : item})
+                    }
                     title="Explore"
                     customBtnStyle={{
                       padding : 10,
